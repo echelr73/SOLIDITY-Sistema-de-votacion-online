@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "ganador",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -53,6 +53,51 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "verResultado",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "verVotos",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "votar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -83,11 +128,11 @@
 	},
 	"sources": {
 		"VOTACIONES/votaciones.sol": {
-			"keccak256": "0x3f1a0351e1df9371c78c17312fad2ef0ae2085b2f8b4f3ddf73bb062abd2f263",
+			"keccak256": "0x830bea88f24cbc8395279e360d0ab97c8af45cc9c7015fb0aa95517ac042f279",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cb0a6db1966ed2bd6580fb127b39376d348e5516fe20faa5c5f34c3c1ff3397e",
-				"dweb:/ipfs/QmYaMHakK4wjK9xyMut8bjt6qTiShSSabB3he3CSrCzAK5"
+				"bzz-raw://36874b52aeceb0026d19040087f3738fd663ea887a667ef75b7990acdb8df20d",
+				"dweb:/ipfs/QmWnv7pjxBNCzVQ2wTG4NQ9ZTGRErf47zyoiT1Sn2FgzcY"
 			]
 		}
 	},
